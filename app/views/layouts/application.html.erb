@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Workspace</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <a href="/">Home</a>
+  <a href="/about">About</a>
+  <a href="/contacts">전화번호부</a>
+  <a href="/slate1">DAVE DASHAWAY</a>
+  <a href="/slate2">THE SPEEDWELL BOYS</a>
+  <a href="/slate3">LOST ON THE MOON</a>
+  
+
+<%= yield %>
+
+</body>
+</html>
